@@ -1,0 +1,22 @@
+{
+    "surface": {
+    "modal": {
+      "value": "{global.white}",
+      "type": "color"
+    },
+    "main": {
+      "value": "{colors.cool-gray.50}",
+      "type": "color"
+    }
+  },
+  "button": {
+    "background": {
+      "primary": {
+        "value": "{colors.brand.110}",
+        "type": "color"
+      },
+      "secondary": {
+        "value": "{colors.green.50}",
+        "type": "color"
+      }
+    }
