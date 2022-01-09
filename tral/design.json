@@ -522,22 +522,22 @@
     },
     "surface": {
       "modal": {
-        "value": "#ffffff",
+        "value": "{colors.cool-gray.50}",
         "type": "color"
       },
       "main": {
-        "value": "#fbfdfe",
+        "value": "{colors.gray.100}",
         "type": "color"
       }
     },
     "button": {
       "background": {
         "primary": {
-          "value": "#008697",
+          "value": "{colors.brand.110}",
           "type": "color"
         },
         "secondary": {
-          "value": "#f3faf7",
+          "value": "{colors.teal.50}",
           "type": "color"
         }
       }
