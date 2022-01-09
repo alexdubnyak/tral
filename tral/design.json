@@ -1,21 +1,17 @@
 {
   "Tral Light Theme": {
-    "tral": {
-      "light": {
-        "theme": {
-          "white": {
-            "value": "#ffffff",
-            "type": "color"
-          },
-          "black": {
-            "value": "{colors.cool-gray.800}",
-            "type": "color"
-          },
-          "gray": {
-            "value": "{colors.gray.400}",
-            "type": "color"
-          }
-        }
+    "global": {
+      "white": {
+        "value": "#ffffff",
+        "type": "color"
+      },
+      "black": {
+        "value": "{colors.cool-gray.800}",
+        "type": "color"
+      },
+      "gray": {
+        "value": "{colors.gray.400}",
+        "type": "color"
       }
     },
     "colors": {
@@ -664,22 +660,18 @@
     }
   },
   "Tral Dark Theme": {
-    "tral": {
-      "dark": {
-        "themel": {
-          "white": {
-            "value": "{colors.cool-gray.800}",
-            "type": "color"
-          },
-          "black": {
-            "value": "#ffffff",
-            "type": "color"
-          },
-          "gray": {
-            "value": "{colors.gray.400}",
-            "type": "color"
-          }
-        }
+    "global": {
+      "white": {
+        "value": "{colors.cool-gray.800}",
+        "type": "color"
+      },
+      "black": {
+        "value": "#ffffff",
+        "type": "color"
+      },
+      "gray": {
+        "value": "{colors.gray.400}",
+        "type": "color"
       }
     },
     "colors": {
