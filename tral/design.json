@@ -1269,7 +1269,7 @@
       "background": {
         "primary": {
           "standard": {
-            "value": "{colors.brand.100}",
+            "value": "{colors.brand.400}",
             "type": "color"
           },
           "hover": {
