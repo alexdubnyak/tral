@@ -1,15 +1,15 @@
 {
   "global": {
     "white": {
-      "value": "#fff",
+      "value": "#27303f",
       "type": "color"
     },
     "black": {
-      "value": "{colors.cool-gray.800}",
+      "value": "#ffffff",
       "type": "color"
     },
     "gray": {
-      "value": "{colors.gray.400}",
+      "value": "#9fa6b2",
       "type": "color"
     }
   },
@@ -525,40 +525,53 @@
   },
   "surface": {
     "modal": {
-      "value": "{colors.cool-gray.50}",
+      "value": "#fbfdfe",
       "type": "color"
     },
     "main": {
-      "value": "{global.white}",
+      "value": "#27303f",
       "type": "color"
     }
   },
   "Text": {
     "Main": {
-      "value": "{global.black}",
+      "value": "#ffffff",
       "type": "color"
     }
   },
   "Controls": {
     "Close": {
       "Standard": {
-        "value": "{global.black}",
+        "value": "#ffffff",
         "type": "color"
       }
     }
   },
-  "heading 1": {
-    "value": {
-      "fontFamily": "{Roboto}",
-      "fontWeight": "Regular",
-      "lineHeight": "AUTO",
-      "fontSize": "38",
-      "letterSpacing": "0%",
-      "paragraphSpacing": "0",
-      "textDecoration": "none",
-      "textCase": "none"
+  "Heading 1": {
+    "fontFamily": {
+      "value": "Roboto"
     },
-    "type": "typography"
+    "fontWeight": {
+      "value": "Regular"
+    },
+    "lineHeight": {
+      "value": "AUTO"
+    },
+    "fontSize": {
+      "value": 38
+    },
+    "letterSpacing": {
+      "value": "0%"
+    },
+    "paragraphSpacing": {
+      "value": 0
+    },
+    "textDecoration": {
+      "value": "none"
+    },
+    "textCase": {
+      "value": "none"
+    }
   },
   "Roboto": {
     "value": "Roboto",
@@ -568,93 +581,184 @@
     "value": "Inter",
     "type": "fontFamilies"
   },
-  "copy": {
-    "value": {
-      "fontFamily": "{Roboto}",
-      "fontWeight": "Regular",
-      "lineHeight": "180%",
-      "fontSize": "18",
-      "letterSpacing": "0%",
-      "paragraphSpacing": "0",
-      "textDecoration": "none",
-      "textCase": "none"
+  "Copy": {
+    "fontFamily": {
+      "value": "Roboto"
     },
-    "type": "typography"
+    "fontWeight": {
+      "value": "Regular"
+    },
+    "lineHeight": {
+      "value": "180%"
+    },
+    "fontSize": {
+      "value": 18
+    },
+    "letterSpacing": {
+      "value": "0%"
+    },
+    "paragraphSpacing": {
+      "value": 0
+    },
+    "textDecoration": {
+      "value": "none"
+    },
+    "textCase": {
+      "value": "none"
+    }
   },
   "Stroke": {
     "Dark": {
-      "value": "{global.black}",
+      "value": "#ffffff",
       "type": "color"
     },
     "Light": {
-      "value": "{global.gray}",
+      "value": "#9fa6b2",
       "type": "color"
     }
   },
   "s": {
-    "value": {
-      "fontFamily": "{Roboto}",
-      "fontWeight": "Regular",
-      "lineHeight": "150%",
-      "fontSize": "14",
-      "letterSpacing": "0%",
-      "paragraphSpacing": "0",
-      "textDecoration": "none",
-      "textCase": "none"
+    "fontFamily": {
+      "value": "Roboto"
     },
-    "type": "typography"
+    "fontWeight": {
+      "value": "Regular"
+    },
+    "lineHeight": {
+      "value": "150%"
+    },
+    "fontSize": {
+      "value": 14
+    },
+    "letterSpacing": {
+      "value": "0%"
+    },
+    "paragraphSpacing": {
+      "value": 0
+    },
+    "textDecoration": {
+      "value": "none"
+    },
+    "textCase": {
+      "value": "none"
+    }
   },
   "button": {
     "background": {
       "primary": {
         "standard": {
-          "value": "{colors.brand.100}",
+          "value": "#b3dbe0",
           "type": "color"
         },
         "hover": {
-          "value": "{colors.brand.80}",
+          "value": "#4daab6",
           "type": "color"
         },
         "pressed": {
-          "value": "{colors.teal.800}",
+          "value": "#05505c",
           "type": "color"
         },
         "disabled": {
-          "value": "{colors.brand.30}",
+          "value": "#cce7ea",
           "type": "color"
         }
       },
       "secondary": {
         "standard": {
-          "value": "{global.white}",
+          "value": "#27303f",
           "type": "color"
         },
         "hover": {
-          "value": "{colors.gray.200}",
+          "value": "#e5e7eb",
           "type": "color"
         },
         "pressed": {
-          "value": "{colors.gray.400}",
+          "value": "#9fa6b2",
           "type": "color"
         },
         "disabled": {
-          "value": "{colors.gray.200}",
+          "value": "#e5e7eb",
           "type": "color"
         }
       }
     }
   },
   "s caps": {
-    "value": {
-      "fontFamily": "Inter",
-      "fontWeight": "Medium",
-      "lineHeight": "AUTO",
-      "fontSize": "14",
-      "letterSpacing": "0%",
-      "paragraphSpacing": "0",
-      "textDecoration": "none",
-      "textCase": "uppercase"
+    "fontFamily": {
+      "value": "Inter"
     },
-    "type": "typography"
+    "fontWeight": {
+      "value": "Medium"
+    },
+    "lineHeight": {
+      "value": "AUTO"
+    },
+    "fontSize": {
+      "value": 14
+    },
+    "letterSpacing": {
+      "value": "0%"
+    },
+    "paragraphSpacing": {
+      "value": 0
+    },
+    "textDecoration": {
+      "value": "none"
+    },
+    "textCase": {
+      "value": "uppercase"
+    }
+  },
+  "heading 1": {
+    "fontFamily": {
+      "value": "Roboto"
+    },
+    "fontWeight": {
+      "value": "Regular"
+    },
+    "lineHeight": {
+      "value": "AUTO"
+    },
+    "fontSize": {
+      "value": 38
+    },
+    "letterSpacing": {
+      "value": "0%"
+    },
+    "paragraphSpacing": {
+      "value": 0
+    },
+    "textDecoration": {
+      "value": "none"
+    },
+    "textCase": {
+      "value": "none"
+    }
+  },
+  "copy": {
+    "fontFamily": {
+      "value": "Roboto"
+    },
+    "fontWeight": {
+      "value": "Regular"
+    },
+    "lineHeight": {
+      "value": "180%"
+    },
+    "fontSize": {
+      "value": 18
+    },
+    "letterSpacing": {
+      "value": "0%"
+    },
+    "paragraphSpacing": {
+      "value": 0
+    },
+    "textDecoration": {
+      "value": "none"
+    },
+    "textCase": {
+      "value": "none"
+    }
   }
 }
