@@ -1,5 +1,4 @@
-{
-  "Tral Light Theme": {
+ {
     "global": {
       "white": {
         "value": "#fff",
@@ -1319,4 +1318,3 @@
       "type": "typography"
     }
   }
-}
