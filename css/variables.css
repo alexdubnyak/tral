@@ -1,6 +1,6 @@
 /**
  * Do not edit directly
- * Generated on Mon, 10 Jan 2022 13:49:57 GMT
+ * Generated on Mon, 10 Jan 2022 14:34:13 GMT
  */
 
 :root {
@@ -128,7 +128,7 @@
   --colors-brand-30: #cce7ea;
   --colors-brand-20: #e6f3f5;
   --colors-brand-10: #f2f9fa;
-  --global-white: #ffffff;
+  --global-white: #fff;
   --button-background-secondary-disabled: var(--colors-gray-200);
   --button-background-secondary-pressed: var(--colors-gray-400);
   --button-background-secondary-hover: var(--colors-gray-200);
