@@ -2,7 +2,7 @@
   "Tral Light Theme": {
     "global": {
       "white": {
-        "value": "#ffffff",
+        "value": "#fff",
         "type": "color"
       },
       "black": {
