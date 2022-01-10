@@ -548,7 +548,7 @@
         }
       }
     },
-    "Heading 1": {
+    "heading 1": {
       "value": {
         "fontFamily": "{Roboto}",
         "fontWeight": "Regular",
@@ -569,7 +569,7 @@
       "value": "Inter",
       "type": "fontFamilies"
     },
-    "Copy": {
+    "copy": {
       "value": {
         "fontFamily": "{Roboto}",
         "fontWeight": "Regular",
