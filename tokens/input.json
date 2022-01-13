@@ -615,7 +615,7 @@
       "background": {
         "primary": {
           "standard": {
-            "value": "{colors.brand.110}",
+            "value": "{colors.brand.100}",
             "type": "color"
           },
           "hover": {
