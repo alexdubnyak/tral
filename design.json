@@ -1,18 +1,8 @@
 {
   "Global Colors": {
     "global": {
-      "white": {
-        "value": "#ffffff",
-        "type": "color"
-      },
-      "black": {
-        "value": "{colors.cool-gray.800}",
-        "type": "color"
-      },
-      "gray": {
-        "value": "{colors.gray.400}",
-        "type": "color"
-      }
+      "value": "3",
+      "type": "borderRadius"
     },
     "colors": {
       "brand": {
@@ -659,6 +649,26 @@
         "textCase": "uppercase"
       },
       "type": "typography"
+    },
+    "text": {
+      "button": {
+        "ghost": {
+          "value": "{global.black}",
+          "type": "color"
+        }
+      }
+    },
+    "xs": {
+      "value": "$global",
+      "type": "borderRadius"
+    },
+    "mid": {
+      "value": "{global}*3",
+      "type": "borderRadius"
+    },
+    "big": {
+      "value": "{global}*12",
+      "type": "borderRadius"
     }
   },
   "Tral Dark Theme": {
@@ -668,20 +678,20 @@
         "type": "color"
       },
       "main": {
-        "value": "{global.white}",
+        "value": "{global.black}",
         "type": "color"
       }
     },
     "Text": {
       "Main": {
-        "value": "{global.black}",
+        "value": "{global.white}",
         "type": "color"
       }
     },
     "Controls": {
       "Close": {
         "Standard": {
-          "value": "{global.black}",
+          "value": "{global.white}",
           "type": "color"
         }
       }
@@ -720,12 +730,12 @@
       },
       "type": "typography"
     },
-    "Stroke": {
-      "Dark": {
+    "stroke": {
+      "dark": {
         "value": "{global.black}",
         "type": "color"
       },
-      "Light": {
+      "light": {
         "value": "{global.gray}",
         "type": "color"
       }
@@ -747,7 +757,7 @@
       "background": {
         "primary": {
           "standard": {
-            "value": "{colors.brand.400}",
+            "value": "{colors.brand.100}",
             "type": "color"
           },
           "hover": {
@@ -765,7 +775,7 @@
         },
         "secondary": {
           "standard": {
-            "value": "{global.white}",
+            "value": "rgba($global.white,0)",
             "type": "color"
           },
           "hover": {
@@ -795,6 +805,26 @@
         "textCase": "uppercase"
       },
       "type": "typography"
+    },
+    "text": {
+      "button": {
+        "ghost": {
+          "value": "{global.white}",
+          "type": "color"
+        }
+      }
+    },
+    "xs": {
+      "value": "$global",
+      "type": "borderRadius"
+    },
+    "mid": {
+      "value": "{global}*3",
+      "type": "borderRadius"
+    },
+    "big": {
+      "value": "{global}*3",
+      "type": "borderRadius"
     }
   }
 }
