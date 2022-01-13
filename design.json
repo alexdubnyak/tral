@@ -1,8 +1,18 @@
 {
   "Global Colors": {
     "global": {
-      "value": "3",
-      "type": "borderRadius"
+      "white": {
+        "value": "#ffffff",
+        "type": "color"
+      },
+      "black": {
+        "value": "{colors.cool-gray.800}",
+        "type": "color"
+      },
+      "gray": {
+        "value": "{colors.gray.400}",
+        "type": "color"
+      }
     },
     "colors": {
       "brand": {
@@ -513,6 +523,10 @@
           "type": "color"
         }
       }
+    },
+    "basic": {
+      "value": "2",
+      "type": "borderRadius"
     }
   },
   "Tral Light Theme": {
@@ -601,7 +615,7 @@
       "background": {
         "primary": {
           "standard": {
-            "value": "{colors.brand.100}",
+            "value": "{colors.brand.110}",
             "type": "color"
           },
           "hover": {
@@ -635,6 +649,10 @@
             "type": "color"
           }
         }
+      },
+      "big": {
+        "value": "{basic}*14",
+        "type": "borderRadius"
       }
     },
     "s caps": {
@@ -649,26 +667,6 @@
         "textCase": "uppercase"
       },
       "type": "typography"
-    },
-    "text": {
-      "button": {
-        "ghost": {
-          "value": "{global.black}",
-          "type": "color"
-        }
-      }
-    },
-    "xs": {
-      "value": "$global",
-      "type": "borderRadius"
-    },
-    "mid": {
-      "value": "{global}*3",
-      "type": "borderRadius"
-    },
-    "big": {
-      "value": "{global}*12",
-      "type": "borderRadius"
     }
   },
   "Tral Dark Theme": {
@@ -730,12 +728,12 @@
       },
       "type": "typography"
     },
-    "stroke": {
-      "dark": {
+    "Stroke": {
+      "Dark": {
         "value": "{global.black}",
         "type": "color"
       },
-      "light": {
+      "Light": {
         "value": "{global.gray}",
         "type": "color"
       }
@@ -757,7 +755,7 @@
       "background": {
         "primary": {
           "standard": {
-            "value": "{colors.brand.100}",
+            "value": "{colors.brand.110}",
             "type": "color"
           },
           "hover": {
@@ -791,6 +789,10 @@
             "type": "color"
           }
         }
+      },
+      "big": {
+        "value": "{basic}*2",
+        "type": "borderRadius"
       }
     },
     "s caps": {
@@ -805,26 +807,6 @@
         "textCase": "uppercase"
       },
       "type": "typography"
-    },
-    "text": {
-      "button": {
-        "ghost": {
-          "value": "{global.white}",
-          "type": "color"
-        }
-      }
-    },
-    "xs": {
-      "value": "$global",
-      "type": "borderRadius"
-    },
-    "mid": {
-      "value": "{global}*3",
-      "type": "borderRadius"
-    },
-    "big": {
-      "value": "{global}*3",
-      "type": "borderRadius"
     }
   }
 }
