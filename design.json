@@ -659,14 +659,6 @@
         "textCase": "uppercase"
       },
       "type": "typography"
-    },
-    "text": {
-      "button": {
-        "ghost": {
-          "value": "{global.black}",
-          "type": "color"
-        }
-      }
     }
   },
   "Tral Dark Theme": {
@@ -676,20 +668,20 @@
         "type": "color"
       },
       "main": {
-        "value": "{global.black}",
+        "value": "{global.white}",
         "type": "color"
       }
     },
     "Text": {
       "Main": {
-        "value": "{global.white}",
+        "value": "{global.black}",
         "type": "color"
       }
     },
     "Controls": {
       "Close": {
         "Standard": {
-          "value": "{global.white}",
+          "value": "{global.black}",
           "type": "color"
         }
       }
@@ -728,12 +720,12 @@
       },
       "type": "typography"
     },
-    "stroke": {
-      "dark": {
+    "Stroke": {
+      "Dark": {
         "value": "{global.black}",
         "type": "color"
       },
-      "light": {
+      "Light": {
         "value": "{global.gray}",
         "type": "color"
       }
@@ -755,7 +747,7 @@
       "background": {
         "primary": {
           "standard": {
-            "value": "{colors.brand.100}",
+            "value": "{colors.brand.400}",
             "type": "color"
           },
           "hover": {
@@ -803,14 +795,6 @@
         "textCase": "uppercase"
       },
       "type": "typography"
-    },
-    "text": {
-      "button": {
-        "ghost": {
-          "value": "{global.white}",
-          "type": "color"
-        }
-      }
     }
   }
 }
